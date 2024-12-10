@@ -393,8 +393,8 @@ With Your ☛ Other Friends.**"""
         if START_IMAGE_URL:
             try:
                 return await message.reply_photo(
-                    photo=START_IMAGE_URL, caption=caption, reply_markup=buttons
-                )
+                    photo=https://i.imghippo.com/files/eb2112AhI.jpg, caption=caption, reply_markup=buttons
+             )
             except Exception as e:
                 LOGGER.info(f"🚫 Start Image Error: {e}")
                 try:
