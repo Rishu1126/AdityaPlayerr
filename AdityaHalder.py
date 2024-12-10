@@ -378,13 +378,13 @@ With Your ☛ Other Friends.**"""
             [
                 [
                     InlineKeyboardButton(
-                        text="🥀 Add Me In Your Chat ✨",
+                        text="🥀 ᴋɪᴅɴᴀᴘ ᴍᴇ ʙᴀʙʏ ✨",
                         url=f"https://t.me/{bot.me.username}?startgroup=true",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        text="🌺 Open Command List 🌷",
+                        text="⚙️ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ ⚙️",
                         callback_data="open_command_list",
                     )
                 ],
@@ -396,11 +396,11 @@ With Your ☛ Other Friends.**"""
                     photo=START_IMAGE_URL, caption=caption, reply_markup=buttons
                 )
             except Exception as e:
-                LOGGER.info(f"🚫 Start Image Error: {e}")
+                LOGGER.info(f"🚫 sᴛᴀʀᴛ ɪᴍᴀɢᴇ ᴇʀʀᴏʀ: {e}")
                 try:
                     return await message.reply_text(text=caption, reply_markup=buttons)
                 except Exception as e:
-                    LOGGER.info(f"🚫 Start Error: {e}")
+                    LOGGER.info(f"🚫 sᴛᴀʀᴛ ᴇʀʀᴏʀ: {e}")
                     return
         else:
             try:
@@ -414,7 +414,7 @@ With Your ☛ Other Friends.**"""
 
 @bot.on_callback_query(rgx("open_command_list"))
 async def open_command_list_alert(client, query):
-    caption = """**🥀 All Members Can Use:**
+    caption = """**🥀 ғᴏʀ ᴀʟʟ ᴍᴇᴍʙᴇʀs:**
 /play - Stream Only Audio On VC.
 /vplay - Stream Audio With Video.
 
