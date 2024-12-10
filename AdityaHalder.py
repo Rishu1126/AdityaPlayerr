@@ -203,8 +203,8 @@ async def main():
         LOGGER.info(f"🚫 Assistant Error: {e}")
         sys.exit()
     try:
-        await app.join_chat("AdityaServer")
-        await app.join_chat("AdityaDiscus")
+        await app.join_chat("DESTINATION07")
+        await app.join_chat("Stylish_Bio_Dp_0")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
@@ -1334,8 +1334,8 @@ With Your ☛ Other Friends.**"""
         [
             [
                 InlineKeyboardButton(
-                    text="🌺 Open Repository Link 🦋",
-                    url="https://github.com/AdityaHalder/AdityaPlayer",
+                    text="🔥 ᴏᴡɴᴇʀ 🔥",
+                    url="https://t.me/niksonfire",
                 )
             ],
             [
